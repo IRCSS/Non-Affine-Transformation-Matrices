@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: WanderingMan_Model_CutOutMaster_Material_u1_v2_NonAFfineTransformations
-  m_Shader: {fileID: 4800000, guid: 62c3da861fb45ec4aa8ae39f70da9198, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7b90517a0b6241a4f9ec486ea2b9b68c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

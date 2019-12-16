@@ -47,6 +47,7 @@
 			{
 				// sample the texture
 				fixed4 col = tex2D(_MainTex, i.uv);
+			col *= i.color;
 				return col ;
 			}
 			ENDCG
