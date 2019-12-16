@@ -37,7 +37,7 @@
 			v2f vert (appdata v)
 			{
 				v2f o;
-				float theta = sin(_Time)*2.*PI;
+				float theta = sin(_Time*10.)*2.*PI;
 				float4x4 myTransformation =
 				{
 					1.,          0.,          0., 0.,

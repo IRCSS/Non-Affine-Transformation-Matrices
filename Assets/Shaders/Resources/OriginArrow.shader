@@ -6,10 +6,10 @@
 	}
 	SubShader
 	{
-		Tags { "RenderType"="Opaque" }
+		Tags {"Queue" = "Transparent" "RenderType"="Opaque" }
 		LOD 100
-		ZTest Off
-		ZWrite Off
+		ZTest Always
+		
 
 		Pass
 		{
