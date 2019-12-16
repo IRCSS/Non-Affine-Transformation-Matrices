@@ -43,12 +43,12 @@
 			    float4 transferedPos      = mul(unity_ObjectToWorld, v.vertex);
 				       transferedPos      = mul(_worldToNeck, transferedPos);
 					  
-				float thetaX = cos(_Time.x*50. + transferedPos.y*0.01) *PI * smoothstep(0., 20.,transferedPos.y) * 0.2;
+				float       thetaX = cos(_Time.x*50. + transferedPos.y*0.01) *PI * smoothstep(0., 20.,transferedPos.y) * 0.2;
 				float4x4 rotationX =  {
-					1.,         0.,         0., 0.,
+					1.,          0.,          0.,  0.,
 				    0., cos(thetaX),-sin(thetaX), 0.,
 					0., sin(thetaX), cos(thetaX), 0.,
-				    0.,         0.,         0., 1.
+				    0.,          0.,          0.,  1.
 				};
 
 					   
